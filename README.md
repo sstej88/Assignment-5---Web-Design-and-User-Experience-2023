@@ -1,7 +1,7 @@
 # INFO6150_Web_Design_and_User_Experience_2022
 
 This website is used to book events such as Music,Concerts and Workshops. We have various list of items to select over different languages.
-We can book the tickets based on the availability of seats.
+We can book the tickets based on the availability of seats. We are looking forward to add multiple events and proceed with the payment options.
 
 Bootstrap components used:
 
@@ -15,6 +15,7 @@ Bootstrap components used:
 - OffCanvas, to build a hidden sidebar that opens for movie ticket selection.
 - Scrollspy, used in the movies section to display the movies based on the selection of movie languages.
 - Badge, used to add the items into the cart.
+- Tooltips, used to show the content when we hover on the button
 
 Team:
 

@@ -32,9 +32,20 @@
           <li class="breadcrumb-item"><a href="#">Home</a></li>
         </ol>
       </nav> -->
-      <button type="button" class="badge rounded-pill text-bg-dark" >Cart <span class="badge text-bg-secondary">3</span>
-      </button>
 
+
+      <span class="tt" data-bs-placement="bottom" title="Check out and complete your order">
+      <button type="button" class="badge rounded-pill text-bg-dark" >Cart <span class="badge text-bg-secondary">3</span>
+        
+      </button>
+    </span>
+      
+<script>
+  const tooltipTriggerList = document.querySelectorAll('.tt')
+  tooltipTriggerList.forEach(t=>{
+    new bootstrap.Tooltip(t)
+  })
+</script>
       
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -61,8 +72,7 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#">Link</a> -->
+            
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -156,9 +166,7 @@
           <div class="card-body">
             <h5 class="card-title">Movies</h5>
             <p class="card-text">No matter where you are or where you go, we make sure your favorite movies are with you.</p>
-            <!-- <a class="btn btn-outline-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-              aria-controls="offcanvasExample">Book Tickets</a> -->
-              <a href="movies.html" class="btn btn-outline-primary">Book Tickets</a>
+            <a href="movies.html" class="btn btn-outline-primary">Book Tickets</a>
 
           </div>
         </div>
@@ -169,7 +177,6 @@
           <div class="card-body">
             <h5 class="card-title">Concerts</h5>
             <p class="card-text">See great new deals every day and dance till you drop in the most happening concerts.</p>
-            <!-- <a href="#" class="btn btn-outline-primary">Book Tickets</a> -->
             <a class="btn btn-outline-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
               aria-controls="offcanvasExample">Book Tickets</a>
           </div>
